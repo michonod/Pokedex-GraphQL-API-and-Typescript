@@ -1,0 +1,57 @@
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/pokemonHome.jpg");
+  background-position: center;
+}
+
+.homePage h1 {
+  font-size: 30px;
+  color: white;
+}
+.container {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.allPokemonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.pagination {
+  padding: 50px;
+}
+
+.clickedPokemon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickedPokemon li {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  margin: 50px;
+}
+
+.loadingState {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
